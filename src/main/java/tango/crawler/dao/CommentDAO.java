@@ -8,6 +8,6 @@ import tango.crawler.entity.Comment;
  * Created by TANQX3 on 2017-3-25.
  */
 @Repository
-public interface CommentDAO extends JpaRepository<Comment,Integer> {
+public interface CommentDAO extends JpaRepository<Comment, Integer> {
 
 }

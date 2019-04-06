@@ -41,14 +41,14 @@ public class CommonUtil {
     }
 
     public static String truncateString(String origin) {
-        return truncateString(origin,Constant.DEFAULT_DATA_LENGTH);
+        return truncateString(origin, Constant.DEFAULT_DATA_LENGTH);
     }
 
     public static String truncateString(String origin, int length) {
         if (origin.length() <= length) {
             return origin;
-        }else {
-            return origin.substring(0,length);
+        } else {
+            return origin.substring(0, length);
         }
 
     }

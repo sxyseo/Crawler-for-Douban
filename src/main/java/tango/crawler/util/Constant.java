@@ -1,7 +1,5 @@
 package tango.crawler.util;
 
-import javax.persistence.criteria.CriteriaBuilder;
-
 /**
  * Created by TANQX3 on 2017-3-22.
  */

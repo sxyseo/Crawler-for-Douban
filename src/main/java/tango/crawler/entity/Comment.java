@@ -1,7 +1,5 @@
 package tango.crawler.entity;
 
-import org.springframework.stereotype.Component;
-
 import javax.persistence.*;
 
 /**

@@ -22,7 +22,7 @@ public class Entrance {
 
         System.out.println("Start");
 
-        //因为想「每次抓取」作为「一个事务」，故循环放到service外面；
+        // 因为想「每次抓取」作为「一个事务」，故循环放到service外面；
         for (int i = 0; i < Constant.MAX_COUNT; i++) {
             try {
                 sleepAwhile();
